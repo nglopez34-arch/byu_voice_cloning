@@ -2,7 +2,7 @@
 
 Welcome to the BYU speech cloning TTS repository! You can use this code to clone any voice found on speeches.byu.edu.
 
-This is done by fine-tuning a pre-existing TTS model on a specific voice. You can either choose your own voice that you would like to clone, or use a pre-existing fine-tuned model (Elder Jeffrey R. Holland's model is included).
+This is done by fine-tuning a pre-existing TTS model on a specific voice. You can either choose your own voice that you would like to clone, or use a pre-existing fine-tuned model (Elder Jeffrey R. Holland's model is included). There are 518,442,047 tunable parameters in the model used.
 
 These instructions will walk you through training your own model. If you would like to use the pre-trained Elder Holland model, do step 1 and then skip to step 7.
 
