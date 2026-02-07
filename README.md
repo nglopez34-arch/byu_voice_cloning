@@ -48,7 +48,7 @@ pip install -r requirements.txt
 If all of this worked, you should now be ready to run the code.
 
 ### e. Download the pre-trained model (if using Elder Holland's voice)
-Download `best_model_8700.pth` from [Google Drive](YOUR_GOOGLE_DRIVE_LINK_HERE)
+Download `best_model_8700.pth` from [Google Drive](https://drive.google.com/file/d/1H3F2y_hOVsUep9smHvcrGvrK1ROkmHk2/view?usp=drive_link)
 
 Place it in: `training_output_jeffrey_r_holland/GPT_XTTS_v2.0_jeffrey_r_holland_FT-February-07-2026_03+39AM-0000000/`
 
