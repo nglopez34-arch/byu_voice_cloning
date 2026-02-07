@@ -1,0 +1,54 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+*.venv
+
+# IDE Files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Training logs and temporary files
+*.tfevents.*
+trainer_*_log.txt
+
+# Backup files
+*.save
+*.bak
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Audio files (except the ones we want to keep)
+*.wav
+!LISTEN_TO_ME.wav
+!training_output_*/*/reference_clip.wav
+
+# Downloaded/generated audio from fetch_audio
+downloads/
+audio_clips/
+raw_audio/
+
+# Dataset preparation outputs
+dataset/
+finetune_*/
+
+# Base XTTS model files (people can download these themselves)
+training_output_*/XTTS_v2.0_original_model_files/
+
+# Any other training outputs (but not Jeffrey R. Holland's)
+training_output_*/
+!training_output_jeffrey_r_holland/
+*.pth
